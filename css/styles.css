@@ -218,11 +218,29 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
+.advantages-section {
+  padding: 94px 0;
+}
+
+.advantages-item {
+  width: 270px;
+}
+
+.advantages-items {
+  display: flex;
+  justify-content: center;
+}
+
+.advantages-item:not(:first-child) {
+  margin-left: 30px;
+}
 .advantage-list {
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
+
+  margin-bottom: 10px;
 }
 
 .advantages-text {
@@ -230,34 +248,76 @@ img {
   line-height: 1.71;
   color: var(--second-text-color);
 }
-.title {
-  font-family: 'Roboto';
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
+
+/*-------WEDO--------*/
+
+.wedo {
+  padding-top: 0;
+  padding-bottom: 94px;
+}
+.wedo-title {
+  margin-bottom: 50px;
+}
+
+.wedo-ul {
+  display: flex;
+}
+
+.wedo-list:not(:first-child) {
+  margin-left: 30px;
 }
 
 .team {
   background-color: #f5f4fa;
 }
+
+.our-team {
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+
+.team-ul {
+  display: flex;
+  padding-bottom: 94px;
+  justify-content: center;
+}
+
+.team-list:not(:first-child) {
+  margin-left: 30px;
+  height: 368px;
+}
+
+.team-list {
+  background-color: var(--second-button-text-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
 .team-title {
   font-size: 16px;
   line-height: 1.19;
+  padding-top: 30px;
+  text-align: center;
 }
 .team-role {
+  text-align: center;
+  padding-top: 10px;
   font-size: 16px;
   line-height: 1.19;
   color: var(--second-text-color);
 }
 
-.footer-background-color {
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #2f303a;
 }
 
 /*------FOOTER---------*/
 
 .address {
+  margin-bottom: 9px;
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
@@ -274,11 +334,33 @@ img {
   text-decoration: none;
   color: var(--second-button-text-color);
 }
+.logo-text-footer {
+  display: block;
+  margin-bottom: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  color: var(--accent-color);
+}
+
 .contact-text-footer {
+  margin-bottom: 9px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
+}
+
+.footer-link:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.footer-container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
