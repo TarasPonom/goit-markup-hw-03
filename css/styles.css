@@ -171,13 +171,6 @@ img {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.our-product-title {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-}
-
 .our-product-type {
   color: var(--second-text-color);
 }
@@ -308,13 +301,13 @@ img {
   color: var(--second-text-color);
 }
 
+/*------FOOTER---------*/
+
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2f303a;
 }
-
-/*------FOOTER---------*/
 
 .address {
   margin-bottom: 9px;
@@ -363,4 +356,56 @@ img {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+}
+/*-----PORTFOLIO-STYLES---*/
+
+.section {
+  padding: 94px 0;
+}
+
+.works-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.work-button-li:not(:first-child) {
+  margin-left: 8px;
+}
+.filter-button {
+  padding: 6px 22px 6px 22px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+.cards > .cards-item {
+  flex-basis: calc(100% / 3 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.cards-item {
+  width: 370px;
+}
+.our-product-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  margin-bottom: 4px;
+}
+.our-product-text {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--second-text-color);
+}
+
+.text-box {
+  padding: 20px 24px;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
