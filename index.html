@@ -56,14 +56,15 @@
     <main>
 
         <section class="hero">
-            <h1 class="hero-text">
-                ЭФФЕКТИВНЫЕ РЕШЕНИЯ
-                <br> 
-                ДЛЯ ВАШЕГО БИЗНЕСА
-            </h1>
+            <div class="container">
+                <h1 class="hero-text">
+                    ЭФФЕКТИВНЫЕ РЕШЕНИЯ
+                    <br> 
+                    ДЛЯ ВАШЕГО БИЗНЕСА
+                </h1>
 
-            <button type="button" class="main-button">Заказать услугу</button>
-
+                <button type="button" class="main-button">Заказать услугу</button>
+            </div>
         </section>
 <!-- Наши преимущества -->
 <section class="advantages-section">
@@ -98,7 +99,7 @@
         <div class="container">
             <h2 class="wedo-title title">Чем мы занимаемся</h2>
 
-                <ul class="list wedo-ul container">
+                <ul class="list wedo-ul">
 
                     <li class="wedo-list">  
                         <img src="./images/1.jpg" alt="набор кода на клавиатуре" width="370"/>
@@ -117,23 +118,46 @@
     </section>  
 <!--Наша команда-->
         <section class="team">
-        <div class="container">
+            <div class="container">
             <h2 class="title our-team">Наша команда</h2>
                 <ul class="list team-ul"> 
                     <li class="team-list"> <img src="./images/man-in-glasses-with-laptop.jpg" alt="Мужик в очках с ноутбуком" width="270"/> 
-                        <h3 class="team-title">Игорь Демьяненко</h3> 
-                        <p class="team-role">Product Designer</p></li>
+                        
+                        <div class="team-item-text">
+                            <h3 class="team-title">Игорь Демьяненко</h3> 
+                            <p class="team-role">Product Designer</p>
+                        </div>
+
+                        </li>
+                        
                     <li class="team-list"> <img src="./images/woman-with-glasses.jpg" alt="Женщина в очках" width="270"/>
-                        <h3 class="team-title">Ольга Репина</h3> 
-                        <p class="team-role" lang="en">Frontend Developer</p></li>
+                        
+                        <div class="team-item-text">
+                            <h3 class="team-title">Ольга Репина</h3> 
+                            <p class="team-role" lang="en">Frontend Developer</p>
+                        </div>
+
+                        </li>
+                        
                     <li class="team-list"> <img src="./images/blue-shirt.jpg" alt="Мужик в голубой рубашке" width="270"/>
-                        <h3 class="team-title">Николай Тарасов</h3> 
-                        <p class="team-role" lang="en">Marketing</p></li>
+                        
+                        <div class="team-item-text"> 
+                            <h3 class="team-title">Николай Тарасов</h3> 
+                            <p class="team-role" lang="en">Marketing</p>
+                        </div>
+
+                        </li>
+                        
                     <li class="team-list"> <img src="./images/man-in-black-t-shirt.jpg" alt="Мужик в черной футболке" width="270"/>
-                        <h3 class="team-title">Михаил Ермаков</h3> 
-                        <p class="team-role" lang="en">UI Designer</p></li>
+                        
+                        <div class="team-item-text">
+                            <h3 class="team-title">Михаил Ермаков</h3> 
+                            <p class="team-role" lang="en">UI Designer</p>
+                        </div>
+
+                        </li>
                 </ul>
-        </div>
+            </div>
         </section>
     </main>
 <!--Контакты-->
